@@ -6,7 +6,7 @@ st.write(
 )
 import streamlit as st
 
-action = st.menu_button("Export", options=["Nama", "Asal", "Kelas"])
+action = st.menu_button("Halo", options=["Nama", "Asal", "Kelas"])
 if action == "Nama":
     st.write("Exporting as Aufa Freshika")
 elif action == "Asal":
